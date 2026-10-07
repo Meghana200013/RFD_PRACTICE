@@ -52,7 +52,10 @@ public class S5 {
 		 System.out.println(total);
 		 assertEquals(actualPrice, total,"total ammount differse");
 		 
+		 System.out.println("git conflict");
+		 
 		 break;
+		
 	 }
 	 }	 
 	 
