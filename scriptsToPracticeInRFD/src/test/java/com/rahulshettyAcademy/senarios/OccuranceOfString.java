@@ -30,5 +30,7 @@ public class OccuranceOfString {
 		list.add(14);
 		list.forEach(System.out::println);
 		
+		
+		System.out.println("am adding code to programm");
 	}
 }
