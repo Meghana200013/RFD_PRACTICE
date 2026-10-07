@@ -24,7 +24,7 @@ public class S1 {
 		 List<WebElement> listOfEarpods=driver.findElements(By.xpath("//div[@class='a-section a-spacing-small a-spacing-top-small']/div/a"));
 		 for (WebElement webElement : listOfEarpods) {
 			 String titleofProducts= webElement.getText();
-			if(titleofProducts.contains("earpods")) {
+			if(titleofProducts.contains("meghana")) {
 				System.out.println(titleofProducts);
 			}else {
 				System.out.println("item not found");
