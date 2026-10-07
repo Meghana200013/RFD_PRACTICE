@@ -49,7 +49,11 @@ public class S4 {
 		        a.click(noDamageCheckBox).build().perform();
 		        WebElement continueButton=driver.findElement(By.xpath("//span[contains(text(),'Continue')]"));
 		        a.click(continueButton).build().perform();
+		        
+		        System.out.println("am getting head pain");
 		        break;
+		        
+		        
 		    }
 	}
 	}
